@@ -1,0 +1,174 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* PRODUCT PAGE CSS */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+img {
+    width: 25rem;
+}
+
+.img1 {
+    position: relative;
+    left: 12rem;
+    transform: rotate(-19deg);
+    transition: all 1s;
+}
+
+.img2 {
+    position: relative;
+    right: 10rem;
+    transition: all 1s ease-in-out;
+}
+
+.img2-invert {
+    position: relative;
+    right: 10rem;
+    transform: rotateY(360deg);
+    transition: all 1s ease-in-out;
+}
+
+@keyframes myanimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.content {
+    border-radius: 20px;
+    background: white;
+    width: 15rem;
+    height: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.price {}
+
+.description {
+    font-size: larger;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 10px;
+}
+
+.colors {
+    display: flex;
+    gap: 18px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.clr {
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    z-index: 2;
+    box-shadow: -1px 1px 3px 0px inset;
+}
+
+.clr:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.c1 {
+    background: #C2BAB2;
+}
+
+.c2 {
+    background-color: #585C5C;
+}
+
+.c3 {
+    background-color: #5F6372;
+}
+
+.c4 {
+    background-color: #F4F2EE;
+}
+
+.btn {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3rem;
+    background-color: #675d5d;
+    border: 1px solid #675d5d;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 8px 1px black;
+    background-color: white;
+    color: black;
+    transition: all ease-in-out .3s;
+}
+
+/* .btn {
+    position: relative;
+    z-index: 2;
+    background-color: #dadada;
+    border-radius: 10px;
+    counter-increment: none;
+    color: #390097;
+    width: 100%;
+    padding: 12px 0px 18px 60px;
+    padding: 12px;
+    margin: 14px;
+    font-family: Balsamiq Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+  
+.btn:hover {
+    background-color: #390097;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  } */
+
+@media screen and (max-width: 480px) {
+
+    .img1 {
+        transform: rotate(-19deg) scale(0.7);
+    }
+
+    .img2 {
+        transform: scale(0.7)
+    }
+
+    .content {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
