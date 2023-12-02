@@ -1,0 +1,72 @@
+.header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.uppersection {
+    display: flex;
+    padding: 5rem 0;
+    background: black;
+    color: white;
+    justify-content: space-around;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-radius: 10px;
+}
+
+.details div:nth-child(odd) {
+    background-color: #ffffffd1;
+    color: black;
+    padding: 0 10px;
+}
+
+.details div:nth-child(even) {
+    padding: 0 10px;
+}
+
+.btn {
+    position: absolute;
+    background: #0071E3;
+    border: 1px solid #0071E3;
+    padding: 11px 21px;
+    font-size: 17px;
+    border-radius: 20px;
+    left: 47%;
+    transform: translateY(-115px);
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #035fba;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    flex-direction: column;
+}
+
+.iphone-title {
+    padding: 3rem 0;
+}
+
+.iphone-image {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 8rem 0;
+}
+

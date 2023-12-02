@@ -1,14 +1,10 @@
-body {
-    width: 100vw;
-    overflow-x: hidden;
-}
-
 /* PRODUCT PAGE CSS */
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: black;
+    padding: 5rem 0;
 }
 
 img {
@@ -58,7 +54,7 @@ img {
     padding-bottom: 4rem;
 }
 
-.title {
+.product-title {
     font-size: x-large;
 }
 

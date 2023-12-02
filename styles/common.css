@@ -1,5 +1,11 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
 .navbar {
-    background-color: #343a40;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,4 +43,37 @@
 
 .nav-links a:hover {
     color: #b0b0b1;
+}
+
+.footer {
+    background-color: black;
+    border-top: 1px solid white;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.company-info,
+.contact-info {
+    max-width: 300px;
+    text-align: left;
+}
+
+.company-info h3,
+.contact-info h3 {
+    color: #fff;
+    font-size: 1.2em;
+}
+.company-info img{
+    max-width: 25px;
+    margin-right: 10px;
+}
+.company-info h3{
+    display: flex;
+    align-items: center;
 }
