@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/contact.css">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 
 <body>
+    <!-- NAVIGATION AND LOGO -->
     <nav>
         <div class="navbar">
             <div class="logo">
@@ -23,6 +24,7 @@
             </ul>
         </div>
     </nav>
+    <!-- MAIN CONTENT -->
     <main>
         <article>
             <div class="box">
@@ -32,7 +34,7 @@
                 </div>
                 <ul>
                     <li>
-                        <a href="/en-in/my-support">
+                        <a href="#">
                             <span aria-label="Sign in to My Support">Sign in to My Support</span>
                             <span>➔</span>
                         </a>
@@ -49,7 +51,7 @@
                 </div>
                 <ul>
                     <li>
-                        <a href="https://www.apple.com/in/support/products/?cid=aaa-ols-home-acpp-psp-0922">
+                        <a target="_blank" href="https://www.apple.com/in/support/products/?cid=aaa-ols-home-acpp-psp-0922">
                             <span aria-label="Learn more">Learn more</span>
                             <span>➔</span>
                         </a>
@@ -66,14 +68,31 @@
                 <h2 class="font-header">Beware of counterfeit parts</h2>
                 <div>
                     <p>
-                        Some counterfeit and third-party power adapters and batteries may not be designed properly and could result in safety issues. To ensure you receive a genuine Apple battery during a battery replacement, we recommend visiting an <a href="https://locate.apple.com/in/en/">Apple Authorised Service Provider</a>. If you need a replacement adapter to charge your Apple device, we recommend getting an Apple power adapter.
+                        Some counterfeit and third-party power adapters and batteries may not be designed properly and could result in safety issues. To ensure you receive a genuine Apple battery during a battery replacement, we recommend visiting an <a target="_blank" href="https://locate.apple.com/in/en/">Apple Authorised Service Provider</a>. If you need a replacement adapter to charge your Apple device, we recommend getting an Apple power adapter.
                     </p>
                     <p>Also non-genuine replacement displays may have compromised visual quality and may fail to work correctly. Apple-certified screen repairs are performed by trusted experts who use genuine Apple parts.</p>
                 </div>
             </div>
         </article>
+
+        <form>
+            <h2 class="font-header">Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <div style="width: full; display: flex; justify-content: center;">
+                <button type="submit" style="margin: auto;">Submit</button>
+            </div>
+        </form>
     </main>
 
+    <!-- FOOTER SECTION -->
     <footer class="footer">
         <div class="footer-content">
             <div class="company-info">

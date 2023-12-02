@@ -58,6 +58,10 @@ img {
 .product-title {
     font-size: x-large;
     font-weight: bolder;
+    background-color: #675d5d;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
 }
 
 .description {
