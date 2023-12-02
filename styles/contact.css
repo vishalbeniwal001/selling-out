@@ -1,0 +1,45 @@
+article {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.box {
+    background: white;
+    padding: 1rem;
+    width: 66vw;
+    border-radius: 2rem;
+    margin: 15px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+}
+
+picture img {
+    width: 90vw;
+    height: 34.61vw;
+}

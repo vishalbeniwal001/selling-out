@@ -8,3 +8,70 @@
 .header h1 {
     margin: 0;
 }
+
+.iphone-video {
+    width: 765px;
+    height: 428px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+.content {
+    max-width: 36rem;
+    padding: 2rem;
+}
+
+.content p:first-child{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.display{
+    flex-direction: row-reverse;
+}
+
+.mini{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+
+    .mini{
+        flex-direction: column;
+    }
+
+    .display{
+        flex-direction: column;
+    }
+    .display img{
+        width: 40rem;
+    }
+    .mini{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .iphone-video {
+        width: 320px;
+        height: 200px;
+    }
+
+    .mini img{
+        width: 100%;
+        padding: 1rem;
+    }
+}

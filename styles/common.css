@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:wght@300&display=swap');
+
+.font-header{
+    font-family: 'Nova Square', sans-serif;
+}
+
+.font-content{
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     width: 100vw;
     overflow-x: hidden;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
 }
 
 .navbar {
